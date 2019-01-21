@@ -1,0 +1,45 @@
+{
+  "name": "kirbytextwrap",
+  "description": "Kirby plugin to get rid of the kirbytext() <p> enclosing tag, or replace them and add HTML attributes. It Keep the kirbytag working.",
+  "version": "1.0.0",
+  "keywords": [
+    "kirby",
+    "plugin",
+    "kirby3",
+    "kirby3-cms",
+    "kirby3-plugin",
+    "kirbytext"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yoanmalie/kirbytextwrap",
+  "bugs": "https://github.com/yoanmalie/kirbytextwrap/issues",
+  "author": {
+    "name": "Yoan Malié",
+    "email": "hello@yoan-malie.fr",
+    "url": "https://yoan-malie.fr"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write \"*.{php,md,json}\""
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.9.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.16.0"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{php,md,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}

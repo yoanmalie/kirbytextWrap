@@ -1,0 +1,31 @@
+{
+  "name": "yoanmalie/kirbytextwrap",
+  "description": "Kirby plugin to get rid of the kirbytext() <p> enclosing tag, or replace them and add HTML attributes. It Keep the kirbytag working.",
+  "version": "1.0.0",
+  "keywords": [
+    "kirby",
+    "plugin",
+    "kirby3",
+    "kirby3-cms",
+    "kirby3-plugin",
+    "kirbytext"
+  ],
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/yoanmalie/kirbytextwrap",
+    "issues": "https://github.com/yoanmalie/kirbytextwrap/issues"
+  },
+  "authors": [
+    {
+      "name": "Yoan Malié",
+      "email": "hello@yoan-malie.fr",
+      "homepage": "https://yoan-malie.fr"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "config.php"
+    ]
+  }
+}
