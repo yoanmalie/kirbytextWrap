@@ -57,6 +57,20 @@ You can install the kirbytextWrap plugin manually, with CLI, through Git submodu
     composer require yoanmalie/kirbytextwrap
     ```
 
+## Contributing
+
+If you see a typo, or found a bug, please let me know! Share also your ideas through the issues tab.  
+Thanks for your help.
+
+Clone this repo and run npm install.
+
+```bash
+git clone git@github.com:yoanmalie/kirbytextWrap.git
+npm install
+```
+
+On each commit, Prettier will be run.
+
 ## Credits
 
 🤚 High five to [@judbd](https://github.com/judbd) who give me this plugin idea.  
