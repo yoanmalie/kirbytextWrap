@@ -1,7 +1,7 @@
 <?php
 /**
  * @package yoanmalie/kirbytextwrap
- * @version 1.0.0
+ * @version 1.1.0
  * @license MIT
  * @author Yoan Malié <hello@yoan-malie.fr>
  */

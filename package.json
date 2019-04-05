@@ -1,7 +1,7 @@
 {
   "name": "kirbytextwrap",
   "description": "Kirby plugin to get rid of the kirbytext() <p> enclosing tag, or replace them and add HTML attributes. It Keep the kirbytag working.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "keywords": [
     "kirby",
     "plugin",
