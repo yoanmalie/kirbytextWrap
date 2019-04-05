@@ -58,9 +58,14 @@ function kirbytextWrap($field, $tag, $attr)
 {
     $text = $field->kirbytext();
 
-    // Remove <p> tag
-    if (Str::startsWith($text, '<p>') && Str::endsWith($text, '</p>')) {
-        $text = Str::between($text, '<p>', '</p>');
+    if (function_exists('kirbytextinline')) {
+        // Remove <p> tag natively
+        $text = $field->kirbytextinline();
+    } else {
+        // Remove <p> tag manually
+        if (Str::startsWith($text, '<p>') && Str::endsWith($text, '</p>')) {
+            $text = Str::between($text, '<p>', '</p>');
+        }
     }
 
     // Add new tag and his attributes
