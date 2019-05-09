@@ -23,9 +23,13 @@
       "homepage": "https://yoan-malie.fr"
     }
   ],
-  "autoload": {
-    "files": [
-      "config.php"
-    ]
+  "require": {
+    "getkirby/composer-installer": "^1.1"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "extra": {
+    "installer-name": "kirbytextWrap"
   }
 }
